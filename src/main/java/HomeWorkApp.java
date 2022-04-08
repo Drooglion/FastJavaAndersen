@@ -16,9 +16,9 @@ public class HomeWorkApp {
     }
 
     public static void checkSumSign () {
-        Integer a = 15;
-        Integer b = -20;
-        Integer sum = a + b;
+        int a = 15;
+        int b = -20;
+        int sum = a + b;
         if (sum >= 0) {
             System.out.println("Сумма положительная");
         } else {
@@ -27,7 +27,7 @@ public class HomeWorkApp {
     }
 
     public static void printColor() {
-        Integer value = 100;
+        int value = 100;
         if (value <= 0) {
             System.out.println("Красный");
         } else if (value > 0 && value <= 100) {
@@ -37,8 +37,8 @@ public class HomeWorkApp {
         }
     }
     public static void compareNumbers(){
-        Integer a = 12;
-        Integer b = 13;
+        int a = 12;
+        int b = 13;
         if(a >= b) {
             System.out.println("a >= b");
         } else {
