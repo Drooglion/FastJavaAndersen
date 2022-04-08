@@ -7,8 +7,6 @@ public class HomeWorkApp {
         compareNumbers();
     }
 
-
-
     public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
