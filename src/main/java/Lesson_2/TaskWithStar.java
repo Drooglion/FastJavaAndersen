@@ -8,12 +8,8 @@ package Lesson_2;
 public class TaskWithStar {
 
     public static boolean checkIntercalaryYear(int year) {
-
-        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        boolean b = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+        return b;
     }
 
     public static void main(String[] args) {

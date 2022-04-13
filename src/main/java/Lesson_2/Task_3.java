@@ -5,14 +5,11 @@ package Lesson_2;
 
 public class Task_3 {
     public static boolean checkNumber(int number) {
-        if (number >= 0) {
-            return false;
-        } else {
-            return true;
-        }
+        boolean b = number < 0;
+        return b;
     }
 
     public static void main(String[] args) {
-        System.out.println(checkNumber(2));
+        System.out.println(checkNumber(0));
     }
 }
